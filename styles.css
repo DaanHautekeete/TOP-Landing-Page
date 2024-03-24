@@ -1,0 +1,148 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+/* Change style of the wrapper for the content */
+#wrapper-content {
+  /* Change the display type to flex for a flexible layout */
+  display: flex;
+
+  /* Change the direction to column for a vertical layout */
+  flex-direction: column;
+}
+
+/* Change style for the header and area 1 */
+.top {
+  display: flex;
+  flex-direction: column;
+  /* Change background color */
+  background-color: #1F2937;
+
+  /* Add padding so the content doesn't hit the ceiling of the page */
+  padding-top: 15px;
+
+
+}
+
+.top .content {
+  /* Change display to flex */
+  display: flex;
+  
+  /* Change direction to column for a vertical layout */
+  flex-direction: column; 
+  
+  /* Place to container in the center of the page */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  /* Change display to flex */
+  display: flex;
+  justify-self: center;
+  height: 20px;
+  /* Make space between navbar and area 1 */
+  margin-bottom: 80px;
+}
+
+/* Style the image of the navigation bar */
+.navbar img { 
+  /* Change the size of the picture */
+  height: 20px;
+}
+
+/* Change style of the links */
+.link-navbar{
+  /* flex: 1; */
+  /* Remove line under links */
+  text-decoration: none;
+
+  /* Change the color and the font-size of the links */
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.navbar-links {
+  /* Add flex to the section of the navbar links */
+  display: flex;
+
+  /* Push the links to the right side of the navbar */
+  margin-left: auto; 
+
+  /* Leave a gap between all the links */
+  gap: 20px;
+}
+
+/* Style for area 1 */
+
+.area-1 {
+  /* Change the display type to flex */
+  display: flex;
+
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.area-1 .text {
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+p.title{
+  font-weight: bolder;
+  color: #F9FAF8;
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+p.information{
+  font-size: 18px;
+  color: #E5E7EB;
+  width: 494px;
+}
+
+.area-1 .image{
+  display: flex;
+  align-self: center;
+  margin-left: 100px;
+}
+
+
+.area-1 img{
+  /* Resize the image */
+  width: 250px;
+}
+
+.area-1 button {
+  /* Change color of the button */
+  background-color: #3882F6;
+
+  /* Change font color */
+  color: white;
+
+  /* Add padding */
+  padding: 2px 10px;
+
+  /* Round cornes */
+  border-radius: 5px;
+
+  /* Make border transparant */
+  border-color: transparent;
+}
+
+
+/* Style for the footer */
+
+.footer{
+  display: flex;
+  justify-content: center;
+  /* margin-top: 100px; */
+  /* background-color: #1F2937; */
+}
+
+.footer p{
+  /* color: white; */
+}
